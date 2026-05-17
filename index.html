@@ -415,7 +415,7 @@
     <div class="strip-content">
       <header>
         <h1>Hayao Universe</h1>
-        <p class="subtitle">Челлендж Егора и Полины · фильм = 1 очко, короткометражка = 0.5</p>
+        <p class="subtitle">1 фильм = 1 очко, короткометражка = 0.5</p>
         <div class="status-pill">
           <span class="status-dot" id="status-dot"></span>
           <span id="status-text">Подключение к базе...</span>
@@ -661,7 +661,7 @@
         return;
       }
 
-      let html = '<p class="watchlist-intro">Никто из вас этого не видел — отличный шанс посмотреть вместе</p>';
+      let html = '<p class="watchlist-intro">Никто из вас этого не видел</p>';
       html += unwatchedFilms.map(f => `
         <div class="film-card">
           <div class="film-info">
